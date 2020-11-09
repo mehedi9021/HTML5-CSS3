@@ -1,0 +1,20 @@
+*{
+
+	/*whole web*/
+	margin: 0px
+	padding :0px;
+}
+
+body{
+
+	font-family: sans-serif;
+	text-align: center;
+}
+/*center the website*/
+
+#center_maker{
+wideh:960px;
+margin: 0px auto /* center the body perfecrly */
+border:2px solid red;
+text-align: left;
+}

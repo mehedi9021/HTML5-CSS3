@@ -1,0 +1,8 @@
+body{
+	color: #fff
+	font-size:32px;
+	font-weight:bold;
+	font-style: italic;
+	background-image: url('img.jpg');
+	background-size: cover;
+}

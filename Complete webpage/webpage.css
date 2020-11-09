@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    width: 1350px;
+    background-color: antiquewhite;
+}
+
+
+
+/*   Search Button */
+
+body {
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header-div {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.search {
+    float: right;
+    padding: 15px;
+}
+
+.dropdown-div {
+    width: 100%;
+    height: 38px;
+    background-color:azure;
+}
+
+.Items-div ul li a {
+    text-decoration: none;
+    display: block;
+    color:white;
+    padding: 20.54px;
+}
+
+.Items-div ul li {
+    list-style: none;
+    float: left;
+    background-color: rgb(15, 15, 15);
+}
+
+.Items-div ul li:last-child {
+    float: right;
+}
+
+.Items-div ul li a:hover {
+    background-color: rgb(97, 216, 41);
+}
+
+.content-div {
+    background-color: darkgray;
+    width: 100%;
+}
+
+.sidebar-1 {
+    width: 30%;
+    height: 500px;
+    background-color: violet;
+    float: left;
+}
+
+.sidebar-1 About {
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+.sidebar-1 banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 300px;
+    height: 250px;
+}
+
+.sidebar-2 {
+    width: 70%;
+    height: 500px;
+    float: left;
+    background-color:white;
+}
+
+.sidebar-2 img-div img {
+    width: 100%;
+    height: 250px;
+}
+
+.footer-div {
+    width: 100%;
+    background-color:greenyellow;
+}
+
+.footer-div footer {
+    text-align: center;
+}

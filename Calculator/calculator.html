@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <title>Calculator</title>
+</head>
+
+<style media="screen">
+body{
+  background-color: black;
+}
+
+
+.cal{
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 12px 12px 10px 10px;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom : 10%;
+  width: 400px;
+  height: 650px;
+  background-color: #8A92A0;
+}
+
+.screen{
+  cursor:default;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 30px;
+  text-align: right;
+  font-size: 50px;
+  font-weight: lighter;
+  padding: 25px;
+  background-color: #E5E5E5;
+  margin-top: 5%;
+  margin-left: 10px;
+  height: 100px;
+  color: #4B5362;
+  width: 380px;
+}
+
+
+.btn{
+  box-shadow: 5px 5px 5px grey;
+  border: 1px solid white;
+  display: inline;
+  border-radius: 20px;
+  margin-left : 17px;
+  font-size: 35px;
+  background-color: #4B5362;
+  margin-top: 5%;
+  height: 70px;
+  color: white;
+  width: 75px;
+}
+
+.btn:hover{
+  font-size: 40px;
+  color: red;
+  border: 1px solid red;
+}
+
+</style>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="cal">
+          <input  id ="sc" class="screen font" type="text" name="screen" value="" readonly>
+           <hr style="width : 300px; margin-top: 30px;">
+
+           <input class = "btn" type="button" name="" value="&radic;" onclick="document.getElementById('sc').value = Math.sqrt(document.getElementById('sc').value).toFixed(2)">
+           <input class = "btn" type="button" name="" value="x&sup2;" onclick="document.getElementById('sc').value = eval(document.getElementById('sc').value * document.getElementById('sc').value)">
+           <input class = "btn" type="button" name="" value="C" onclick="document.getElementById('sc').value =''">
+           <input class = "btn" type="button" name="" value="&#8592;" onclick="document.getElementById('sc').value = (document.getElementById('sc').value).slice(0,-1) "><br>
+
+           <input class = "btn" type="button" name="" value="7" onclick="document.getElementById('sc').value += '7' ">
+           <input class = "btn" type="button" name="" value="8" onclick="document.getElementById('sc').value += '8' ">
+           <input class = "btn" type="button" name="" value="9" onclick="document.getElementById('sc').value += '9' ">
+           <input class = "btn" type="button" name="" value="+" onclick="document.getElementById('sc').value += '+' "><br>
+
+           <input class = "btn" type="button" name="" value="4" onclick="document.getElementById('sc').value += '4' ">
+           <input class = "btn" type="button" name="" value="5" onclick="document.getElementById('sc').value += '5' ">
+           <input class = "btn" type="button" name="" value="6" onclick="document.getElementById('sc').value += '6' ">
+           <input class = "btn" type="button" name="" value="-" onclick="document.getElementById('sc').value += '-' "><br>
+
+           <input class = "btn" type="button" name="" value="1" onclick="document.getElementById('sc').value += '1' ">
+           <input class = "btn" type="button" name="" value="2" onclick="document.getElementById('sc').value += '2' ">
+           <input class = "btn" type="button" name="" value="3" onclick="document.getElementById('sc').value += '3' ">
+           <input class = "btn" type="button" name="" value="*" onclick="document.getElementById('sc').value += '*' "><br>
+
+           <input class = "btn" type="button" name="" value="."  onclick="document.getElementById('sc').value += '.' ">
+           <input class = "btn" type="button" name="" value="0"  onclick="document.getElementById('sc').value += '0' ">
+           <input class = "btn" type="button" name="" value="="  onclick="document.getElementById('sc').value = eval(document.getElementById('sc').value).toFixed(2) ">
+           <input class = "btn" type="button" name="" value="/"  onclick="document.getElementById('sc').value += '/' ">
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>

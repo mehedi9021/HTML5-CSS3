@@ -1,0 +1,34 @@
+.head{
+	background-color: red;
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid #666;
+	float: left;
+	width: 100px;
+}
+.news{
+
+    background-color: green;
+	padding-left: 20px;
+	padding-right: 20px;
+	border:1px solid #666;
+	float: left;
+	width: 500px;
+}
+.navigation{
+	clear: left; 
+}
+.navigation ul li{
+	list-style: none;
+	background-color: red;
+	padding: 5px;
+	margin:2px;
+	width: 100px;
+	
+}
+
+span{
+
+	display: none;<!--or visibility:hidden-->;
+}

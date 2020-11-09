@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>table</title>
+	<link rel="stylesheet" href="">
+	<style>
+		table{
+			width: 50%;
+			height: 300px;
+			margin:auto;
+			margin-top: 100px;
+		}
+		table th{
+			color: #fff;
+			background:#7BEB6E;
+		}
+		table .tr1{
+			background:#DEDC49;
+			color: #fff;
+		}
+		table .tr2{
+			background:blue;
+			color: #fff;
+		}
+		table .tr3{
+			background:#22EAE7;
+			color: #fff;
+		}
+	</style>
+	
+</head>
+<body>
+	<table border="1px solid #ddd">
+		<tr>
+			<th>HEADER</th>
+			<th>HEADER</th>
+			<th>HEADER</th>
+			<th>HEADER</th>
+		</tr>
+		<tr class="tr1">
+			<td rowspan="5">You can span down</td>
+			<td colspan="3">You can span accross</td>
+		</tr>
+		<tr class="tr2">
+			<td colspan="2">Its like a puzzle</td>
+			<td rowspan="4">over there</td>
+		</tr>
+		<tr class="tr3">
+			<td rowspan="3">This Way</td>
+			<td>That way</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Where am <br>I?</td>
+		</tr>
+	</table>
+</body>
+</html>

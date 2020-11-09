@@ -1,0 +1,15 @@
+#dad p:first-letter{
+	font-size: 50px;
+}
+#dad p:first-child{
+	color: red;
+}
+#dad p:last-child{
+    color: red;
+}
+#dad p:before{
+	content: "My name is ";
+}
+<!--#dad p: after{
+	content: "your name is"-->
+}
